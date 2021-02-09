@@ -1,27 +1,37 @@
-# Repo
+# Github-Finder
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.1.
+It is a site where people can search for different repos of other users of github depending with their username
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+# Technologies Used
 
-## Code scaffolding
+Typescript
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+HTML
 
-## Build
+CSS
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Javascript
 
-## Running unit tests
+## Author
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Kizito ALbert
 
-## Running end-to-end tests
+## Instructions
+Users can serach for different repos depending on the other user's github name.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+The site will display a number of different repos that particular person has, number of followers and also number of people the person follows
 
-## Further help
+## Live link
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+https://kizito-alberrt.github.io/github-finder/
+
+## License and copywrite
+
+Inspire-project
+
+Licensed under [MIT license](LICENSE).
+
+
+
