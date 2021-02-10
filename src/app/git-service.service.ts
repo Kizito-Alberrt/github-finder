@@ -10,7 +10,7 @@ import { SearchBarComponent } from './search-bar/search-bar.component';
 export class GitServiceService {
 
   user: Users[] = [];
-  _URL = 'https://api.github.com/users';
+  _URL = 'https://api.github.com/users/';
   token = '910e0d1b4c5de11aa68ee347c1dceffcc4ef855f';
 
   constructor(private http: HttpClient) { }
@@ -27,7 +27,7 @@ export class GitServiceService {
 
     let promise = new Promise<void>((resolve, reject) => {
       this.user = [];
-      this.http.get<ApiResponse>(this._URL + searchTerm + this.token).toPromise().then((results) => {
+      this.http.get<ApiResponse>(this._URL + searchTerm ).toPromise().then((results) => {
         this.user.push(results);
         console.log(results);
 

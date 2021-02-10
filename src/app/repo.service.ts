@@ -13,6 +13,6 @@ export class RepoService {
   constructor(public http: HttpClient) { }
 
   getRepo(searchTerm: string): Observable<any> {
-    return this.http.get(this._URL + searchTerm + '/repos?' + this.token);
+    return this.http.get(this._URL + searchTerm + '/repos');
   }
 }
